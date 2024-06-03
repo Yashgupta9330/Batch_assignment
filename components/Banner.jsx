@@ -2,7 +2,7 @@ import Image from "next/image";
 import Frame6 from "../public/Frame6.png";
 import Button from "./Button";
 import background from "../public/background.png";
-
+import vector from "../public/vector.png"
 export default function Banner() {
   return (
     <div className="w-4/5" style={{ backgroundImage: `url(${background.src})`, backgroundSize: 'cover' }}>
