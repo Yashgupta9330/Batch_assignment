@@ -1,4 +1,4 @@
-import Image from "next/image";
+{/*import Image from "next/image";
 import Star1 from "../public/Star1.png";
 import Vector2 from "../public/Vector2.png";
 import phone from "../public/phone.png";
@@ -41,4 +41,4 @@ export default function New() {
     </div>
   </div>
   );
-}
+} */}
