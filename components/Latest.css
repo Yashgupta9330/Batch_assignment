@@ -28,17 +28,12 @@
   }
   
   .ecli-main {
-    /* Group 35896 */
-  
     position: absolute;
     width: 317px;
     height: 230px;
     left: 10%;
-    
     top: -5%;
     z-index: -4;
   }
   
-  @media (max-width:500px) {
-    
-  }
+  
