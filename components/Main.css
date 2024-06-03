@@ -1,0 +1,44 @@
+.main {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-head {
+    font-family: cb;
+    text-transform: capitalize;
+    word-spacing: 6px;
+    font-size: 60px;
+  }
+  
+  .img-main {
+    height: 900px;
+    top: -10%;
+  }
+  
+  .main-para {
+    font-family: cm;
+    color: rgba(84, 84, 84, 0.619);
+    font-size: 18px;
+  }
+  
+  .main-btn {
+    background-color: black;
+    padding: 14px;
+    border-radius: 4px;
+  }
+  
+  .ecli-main {
+    /* Group 35896 */
+  
+    position: absolute;
+    width: 317px;
+    height: 230px;
+    left: 10%;
+    
+    top: -5%;
+    z-index: -4;
+  }
+  
+  @media (max-width:500px) {
+    
+  }
