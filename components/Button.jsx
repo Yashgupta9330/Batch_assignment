@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Vector1 from "../public/Vector1.png";
 
 export default function Button({ text,white,icon }) {
   return (
