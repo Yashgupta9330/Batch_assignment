@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Frame6 from "../public/Frame6.png";
 import Button from "./Button";
-import vector from "../public/vector.png";
 import background from "../public/background.png";
 
 export default function Banner() {

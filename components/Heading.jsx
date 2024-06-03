@@ -1,9 +1,9 @@
-import Image from "next/image";
+{/*import Image from "next/image";
 import Frame1 from "../public/Frame1.png"
 import Vector2 from "../public/Vector2.png";
 import Group359241 from "../public/Group359241.png";
 import Button from "./Button";
-{/*export default function Heading() {
+export default function Heading() {
   return (
     <section className="relative flex flex-col-reverse lg:flex-row justify-between items-center w-full mt-10 px-5 lg:px-0">
     <div className="flex flex-col w-full w-1/2 gap-4 lg:pl-10">

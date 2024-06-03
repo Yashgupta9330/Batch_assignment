@@ -1,4 +1,4 @@
-import Image from "next/image";
+{/*import Image from "next/image";
 import Vector2 from "../public/Vector2.png";
 import iPhone1322 from "../public/iPhone-1322.png";
 import iPhone13221 from "../public/iPhone13221.svg";
@@ -7,7 +7,7 @@ import Group359241 from "../public/Group359241.png";
 import Button from "./Button";
 
 
-{/*export default function Hero(){
+export default function Hero(){
     return(
         <div className="w-full flex items-center justify-center relative border border-black">
       <div className="flex flex-col w-1/2 gap-4">
