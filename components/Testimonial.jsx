@@ -20,7 +20,7 @@ export default function Testimonials() {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
-    }, 3000);
+    }, 5000);
     return () => clearInterval(slider);
   }, [index]);
 
@@ -48,13 +48,6 @@ export default function Testimonials() {
                   <h3 className="text-xl font-semibold mb-2">{name}</h3>
                   <h4 className="text-lg font-medium mb-2">{heading}</h4>
                   <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">{review}</p>
-                  <div className="flex">
-                    {Array.from({ length: rating }, (_, i) => (
-                      <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.522 4.674a1 1 0 00.95.69h4.905c.969 0 1.371 1.24.588 1.81l-3.98 2.893a1 1 0 00-.364 1.118l1.52 4.673c.3.921-.755 1.688-1.54 1.118L10 15.347l-3.98 2.893c-.784.57-1.838-.197-1.54-1.118l1.52-4.673a1 1 0 00-.364-1.118L2.655 9.1c-.783-.57-.38-1.81.588-1.81h4.905a1 1 0 00.95-.69l1.522-4.674z" />
-                      </svg>
-                    ))}
-                  </div>
                 </article>
               );
             })}
